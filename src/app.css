@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.nav-control {
+		@apply text-gray-400 hover:text-white hover:bg-gray-800 text-sm leading-6 font-medium;
+	}
+}
